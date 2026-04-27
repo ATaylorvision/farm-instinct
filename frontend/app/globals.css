@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Earth-tone palette: warm parchment background, deep olive primary, terracotta accent */
+    --background: 42 38% 96%;
+    --foreground: 30 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 30 20% 15%;
+
+    --primary: 92 30% 28%;           /* deep olive */
+    --primary-foreground: 42 38% 96%;
+
+    --secondary: 36 30% 88%;
+    --secondary-foreground: 30 20% 20%;
+
+    --muted: 36 20% 90%;
+    --muted-foreground: 30 10% 40%;
+
+    --accent: 18 55% 50%;            /* terracotta */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 15% 82%;
+    --input: 30 15% 82%;
+    --ring: 92 30% 35%;
+
+    --radius: 0.6rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+/* Print styles: clean "Save as PDF" output.
+   Hides navigation and controls; leaves the page body visible. */
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+  html, body {
+    background: white !important;
+    color: black !important;
+  }
+  header,
+  nav,
+  .no-print,
+  [data-no-print] {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  .container {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  /* Avoid awkward page breaks inside cards / theme blocks */
+  .print-block,
+  [data-print-block] {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* Ensure progress bars print with ink */
+  [role="progressbar"],
+  progress {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

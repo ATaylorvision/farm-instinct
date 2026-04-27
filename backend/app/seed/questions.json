@@ -1,0 +1,370 @@
+[
+  {
+    "code": "q1",
+    "kind": "likert",
+    "order": 1,
+    "prompt": {
+      "en": "When the truck pulls up to unload, I'm already moving — I don't wait for someone to tell me where to start.",
+      "es": "Cuando llega el camión a descargar, ya estoy moviéndome — no espero a que alguien me diga por dónde empezar."
+    },
+    "likert_weights": [{"theme_code": "drive_output", "weight": 1.0}]
+  },
+  {
+    "code": "q2",
+    "kind": "likert",
+    "order": 2,
+    "prompt": {
+      "en": "I'd rather work a 12-hour push to finish a job than break it across two days.",
+      "es": "Prefiero meterle 12 horas seguidas para terminar un trabajo que partirlo en dos días."
+    },
+    "likert_weights": [{"theme_code": "drive_output", "weight": 1.0}]
+  },
+  {
+    "code": "q3",
+    "kind": "likert",
+    "order": 3,
+    "prompt": {
+      "en": "When work piles up, I tend to slow down and overthink the order I should tackle things in.",
+      "es": "Cuando se acumula el trabajo, suelo desacelerar y darle muchas vueltas al orden en que debo hacer las cosas."
+    },
+    "likert_weights": [{"theme_code": "drive_output", "weight": -1.0}]
+  },
+  {
+    "code": "q4",
+    "kind": "likert",
+    "order": 4,
+    "prompt": {
+      "en": "I get real satisfaction looking back at the end of the day and seeing exactly how much ground I covered.",
+      "es": "Me da una satisfacción real ver al final del día cuánto terreno cubrí."
+    },
+    "likert_weights": [{"theme_code": "drive_output", "weight": 1.0}]
+  },
+
+  {
+    "code": "q5",
+    "kind": "likert",
+    "order": 5,
+    "prompt": {
+      "en": "I notice when an animal isn't quite right — its gait, its eyes, how it's eating — before anyone else mentions it.",
+      "es": "Noto cuando un animal no anda bien — cómo camina, sus ojos, cómo come — antes de que alguien más lo diga."
+    },
+    "likert_weights": [{"theme_code": "observation", "weight": 1.0}]
+  },
+  {
+    "code": "q6",
+    "kind": "likert",
+    "order": 6,
+    "prompt": {
+      "en": "Walking a field, I pick up small things others miss: a leaning post, a wet patch, a row that's not coming up like the rest.",
+      "es": "Caminando un campo, capto detalles que otros pasan por alto: un poste inclinado, un parche húmedo, una hilera que no nace igual que las demás."
+    },
+    "likert_weights": [{"theme_code": "observation", "weight": 1.0}]
+  },
+  {
+    "code": "q7",
+    "kind": "likert",
+    "order": 7,
+    "prompt": {
+      "en": "I can usually tell a piece of equipment is starting to fail by the sound or the vibration before a warning light comes on.",
+      "es": "Suelo darme cuenta de que un equipo va a fallar por el sonido o la vibración antes de que se prenda una luz de advertencia."
+    },
+    "likert_weights": [{"theme_code": "observation", "weight": 1.0}]
+  },
+  {
+    "code": "q8",
+    "kind": "likert",
+    "order": 8,
+    "prompt": {
+      "en": "I focus on the task in front of me and don't pay much attention to what's going on around me.",
+      "es": "Me concentro en la tarea de enfrente y no presto mucha atención a lo que pasa a mi alrededor."
+    },
+    "likert_weights": [{"theme_code": "observation", "weight": -1.0}]
+  },
+
+  {
+    "code": "q9",
+    "kind": "likert",
+    "order": 9,
+    "prompt": {
+      "en": "When a tractor or implement breaks down, my first instinct is to pop the hood and start diagnosing it myself.",
+      "es": "Cuando un tractor o un implemento se descompone, lo primero que hago es abrirlo y empezar a diagnosticarlo yo mismo."
+    },
+    "likert_weights": [{"theme_code": "equipment", "weight": 1.0}]
+  },
+  {
+    "code": "q10",
+    "kind": "likert",
+    "order": 10,
+    "prompt": {
+      "en": "I genuinely enjoy keeping machinery running — greasing, swapping fluids, lining up the next service.",
+      "es": "De verdad disfruto mantener la maquinaria funcionando — engrasar, cambiar fluidos, programar el próximo servicio."
+    },
+    "likert_weights": [{"theme_code": "equipment", "weight": 1.0}]
+  },
+  {
+    "code": "q11",
+    "kind": "likert",
+    "order": 11,
+    "prompt": {
+      "en": "Engines, hydraulics, and PTOs are not really my thing — I'd rather call somebody than figure it out.",
+      "es": "Motores, hidráulicos y tomas de fuerza no son lo mío — prefiero llamar a alguien antes que resolverlo yo."
+    },
+    "likert_weights": [{"theme_code": "equipment", "weight": -1.0}]
+  },
+  {
+    "code": "q12",
+    "kind": "likert",
+    "order": 12,
+    "prompt": {
+      "en": "Give me a manual and a problem with a piece of equipment, and I'll work it out.",
+      "es": "Dame un manual y un problema con una máquina, y lo resuelvo."
+    },
+    "likert_weights": [{"theme_code": "equipment", "weight": 1.0}]
+  },
+
+  {
+    "code": "q13",
+    "kind": "likert",
+    "order": 13,
+    "prompt": {
+      "en": "I'm at the gate at the same time every morning, regardless of weather, mood, or how the day before went.",
+      "es": "Estoy en el portón a la misma hora cada mañana, sin importar el clima, el ánimo o cómo me fue el día anterior."
+    },
+    "likert_weights": [{"theme_code": "reliability", "weight": 1.0}]
+  },
+  {
+    "code": "q14",
+    "kind": "likert",
+    "order": 14,
+    "prompt": {
+      "en": "I can do the same chore — feeding, watering, checking — for weeks on end without losing focus or cutting corners.",
+      "es": "Puedo hacer la misma tarea — alimentar, dar agua, revisar — semanas seguidas sin perder el foco ni cortar atajos."
+    },
+    "likert_weights": [{"theme_code": "reliability", "weight": 1.0}]
+  },
+  {
+    "code": "q15",
+    "kind": "likert",
+    "order": 15,
+    "prompt": {
+      "en": "Repetitive jobs wear me down fast — I want variety more than a steady routine.",
+      "es": "Los trabajos repetitivos me desgastan rápido — quiero variedad más que una rutina fija."
+    },
+    "likert_weights": [{"theme_code": "reliability", "weight": -1.0}]
+  },
+  {
+    "code": "q16",
+    "kind": "likert",
+    "order": 16,
+    "prompt": {
+      "en": "If I say I'll close a gate, top off a trough, or finish a row, you can count on it being done.",
+      "es": "Si digo que voy a cerrar un portón, llenar un bebedero o terminar una hilera, puedes contar con que está hecho."
+    },
+    "likert_weights": [{"theme_code": "reliability", "weight": 1.0}]
+  },
+
+  {
+    "code": "q17",
+    "kind": "likert",
+    "order": 17,
+    "prompt": {
+      "en": "When the plan falls apart — a part won't ship, the rain comes early — I switch tactics quickly and keep moving.",
+      "es": "Cuando el plan se cae — no llega una pieza, la lluvia se adelanta — cambio de táctica rápido y sigo avanzando."
+    },
+    "likert_weights": [{"theme_code": "problem_solving", "weight": 1.0}]
+  },
+  {
+    "code": "q18",
+    "kind": "likert",
+    "order": 18,
+    "prompt": {
+      "en": "I can usually rig a workable fix with what's in the shed when something fails mid-job.",
+      "es": "Casi siempre puedo armar un arreglo funcional con lo que hay en el galpón cuando algo falla a mitad del trabajo."
+    },
+    "likert_weights": [{"theme_code": "problem_solving", "weight": 1.0}]
+  },
+  {
+    "code": "q19",
+    "kind": "likert",
+    "order": 19,
+    "prompt": {
+      "en": "When the plan changes mid-day, I get rattled and need time to reset before I can get going again.",
+      "es": "Cuando el plan cambia a media jornada, me bloqueo y necesito tiempo para reordenarme antes de volver a arrancar."
+    },
+    "likert_weights": [{"theme_code": "problem_solving", "weight": -1.0}]
+  },
+  {
+    "code": "q20",
+    "kind": "likert",
+    "order": 20,
+    "prompt": {
+      "en": "I see most farm problems as puzzles — I enjoy working out a way through them.",
+      "es": "Veo la mayoría de los problemas de la finca como rompecabezas — disfruto encontrarles la salida."
+    },
+    "likert_weights": [{"theme_code": "problem_solving", "weight": 1.0}]
+  },
+
+  {
+    "code": "q21",
+    "kind": "likert",
+    "order": 21,
+    "prompt": {
+      "en": "I move through livestock calmly — they settle around me instead of getting wound up.",
+      "es": "Me muevo entre el ganado con calma — los animales se tranquilizan a mi alrededor en lugar de alterarse."
+    },
+    "likert_weights": [{"theme_code": "animal_care", "weight": 1.0}]
+  },
+  {
+    "code": "q22",
+    "kind": "likert",
+    "order": 22,
+    "prompt": {
+      "en": "I can read a herd's mood — when they're stressed, when they're hungry, when something's off — without thinking hard about it.",
+      "es": "Puedo leer el estado del rebaño — cuándo está estresado, hambriento o cuándo algo anda mal — sin tener que pensarlo mucho."
+    },
+    "likert_weights": [{"theme_code": "animal_care", "weight": 1.0}]
+  },
+  {
+    "code": "q23",
+    "kind": "likert",
+    "order": 23,
+    "prompt": {
+      "en": "Honestly, I'd rather work with machines than animals.",
+      "es": "Sinceramente, prefiero trabajar con máquinas que con animales."
+    },
+    "likert_weights": [{"theme_code": "animal_care", "weight": -1.0}]
+  },
+  {
+    "code": "q24",
+    "kind": "likert",
+    "order": 24,
+    "prompt": {
+      "en": "I take real pride in keeping animals healthy, fed, and content — it's not just a chore for me.",
+      "es": "Me enorgullece de verdad mantener a los animales sanos, alimentados y tranquilos — no es solo una tarea para mí."
+    },
+    "likert_weights": [{"theme_code": "animal_care", "weight": 1.0}]
+  },
+
+  {
+    "code": "q25",
+    "kind": "likert",
+    "order": 25,
+    "prompt": {
+      "en": "When I make a decision about the land, I'm thinking about how it'll look in three or five years, not just this season.",
+      "es": "Cuando tomo una decisión sobre la tierra, pienso en cómo se verá en tres o cinco años, no solo en esta temporada."
+    },
+    "likert_weights": [{"theme_code": "strategic", "weight": 1.0}]
+  },
+  {
+    "code": "q26",
+    "kind": "likert",
+    "order": 26,
+    "prompt": {
+      "en": "Soil health, pasture rotation, and water management are things I actively pay attention to.",
+      "es": "La salud del suelo, la rotación de pastos y el manejo del agua son cosas a las que les pongo atención activamente."
+    },
+    "likert_weights": [{"theme_code": "strategic", "weight": 1.0}]
+  },
+  {
+    "code": "q27",
+    "kind": "likert",
+    "order": 27,
+    "prompt": {
+      "en": "I focus on what needs doing today — long-term planning is somebody else's job.",
+      "es": "Me enfoco en lo que hay que hacer hoy — la planeación a largo plazo es trabajo de alguien más."
+    },
+    "likert_weights": [{"theme_code": "strategic", "weight": -1.0}]
+  },
+  {
+    "code": "q28",
+    "kind": "likert",
+    "order": 28,
+    "prompt": {
+      "en": "I'd rather invest a slow day fixing something the right way than patch it and pay for it again next year.",
+      "es": "Prefiero invertir un día tranquilo en arreglar algo bien que parchearlo y pagarlo de nuevo el año siguiente."
+    },
+    "likert_weights": [{"theme_code": "strategic", "weight": 1.0}]
+  },
+
+  {
+    "code": "q29",
+    "kind": "likert",
+    "order": 29,
+    "prompt": {
+      "en": "I keep good records and make sure nothing important gets forgotten during busy seasons.",
+      "es": "Llevo buenos registros y me aseguro de que nada importante se olvide en las temporadas pesadas."
+    },
+    "likert_weights": [{"theme_code": "planning", "weight": 1.0}]
+  },
+  {
+    "code": "q30",
+    "kind": "likert",
+    "order": 30,
+    "prompt": {
+      "en": "I'm the one who works out the order of jobs, who's where, and what supplies need to be on hand by Friday.",
+      "es": "Soy el que ordena las tareas, ubica a la gente y define qué insumos deben estar listos para el viernes."
+    },
+    "likert_weights": [{"theme_code": "planning", "weight": 1.0}]
+  },
+  {
+    "code": "q31",
+    "kind": "likert",
+    "order": 31,
+    "prompt": {
+      "en": "I lose track of small details — orders, dates, who's doing what — when several things are running at once.",
+      "es": "Pierdo el hilo de los detalles pequeños — pedidos, fechas, quién hace qué — cuando hay varias cosas a la vez."
+    },
+    "likert_weights": [{"theme_code": "planning", "weight": -1.0}]
+  },
+  {
+    "code": "q32",
+    "kind": "likert",
+    "order": 32,
+    "prompt": {
+      "en": "I think a few steps ahead — if we're cutting Tuesday, the baler needs to be serviced Monday.",
+      "es": "Pienso varios pasos por adelantado — si cortamos el martes, la enfardadora hay que revisarla el lunes."
+    },
+    "likert_weights": [{"theme_code": "planning", "weight": 1.0}]
+  },
+
+  {
+    "code": "q33",
+    "kind": "likert",
+    "order": 33,
+    "prompt": {
+      "en": "When a crew is standing around unsure what to do, I step in and start giving direction.",
+      "es": "Cuando una cuadrilla está parada sin saber qué hacer, me meto y empiezo a dar dirección."
+    },
+    "likert_weights": [{"theme_code": "leadership", "weight": 1.0}]
+  },
+  {
+    "code": "q34",
+    "kind": "likert",
+    "order": 34,
+    "prompt": {
+      "en": "People work harder for me than they would on their own — I get the best out of a crew.",
+      "es": "La gente trabaja más fuerte conmigo que sola — saco lo mejor de una cuadrilla."
+    },
+    "likert_weights": [{"theme_code": "leadership", "weight": 1.0}]
+  },
+  {
+    "code": "q35",
+    "kind": "likert",
+    "order": 35,
+    "prompt": {
+      "en": "I'd rather put my head down and do my own work than be responsible for what other people are doing.",
+      "es": "Prefiero agachar la cabeza y hacer mi propio trabajo que ser responsable de lo que hacen los demás."
+    },
+    "likert_weights": [{"theme_code": "leadership", "weight": -1.0}]
+  },
+  {
+    "code": "q36",
+    "kind": "likert",
+    "order": 36,
+    "prompt": {
+      "en": "I can have a hard conversation with a worker who isn't pulling their weight without it blowing up.",
+      "es": "Puedo tener una conversación difícil con un trabajador que no está cumpliendo sin que explote."
+    },
+    "likert_weights": [{"theme_code": "leadership", "weight": 1.0}]
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "code": "drive_output",
+    "en": {
+      "name": "Drive & Output",
+      "description": "Urgency, momentum, and the appetite to finish jobs fast.",
+      "tips": []
+    },
+    "es": {
+      "name": "Empuje y Producción",
+      "description": "Urgencia, ritmo y ganas de terminar el trabajo rápido.",
+      "tips": []
+    }
+  },
+  {
+    "code": "observation",
+    "en": {
+      "name": "Observation",
+      "description": "Noticing subtle changes in animals, crops, land, and equipment before others do.",
+      "tips": []
+    },
+    "es": {
+      "name": "Observación",
+      "description": "Notar cambios sutiles en animales, cultivos, tierra y equipo antes que los demás.",
+      "tips": []
+    }
+  },
+  {
+    "code": "equipment",
+    "en": {
+      "name": "Equipment & Mechanics",
+      "description": "Affinity for machinery — diagnostics, repairs, and keeping iron running.",
+      "tips": []
+    },
+    "es": {
+      "name": "Equipo y Mecánica",
+      "description": "Afinidad con la maquinaria — diagnóstico, reparación y mantener todo funcionando.",
+      "tips": []
+    }
+  },
+  {
+    "code": "reliability",
+    "en": {
+      "name": "Reliability & Routine",
+      "description": "Consistency, showing up, and tolerance for repetitive work done well.",
+      "tips": []
+    },
+    "es": {
+      "name": "Constancia y Rutina",
+      "description": "Consistencia, presentarse cada día y tolerar el trabajo repetitivo bien hecho.",
+      "tips": []
+    }
+  },
+  {
+    "code": "problem_solving",
+    "en": {
+      "name": "Problem Solving & Adaptability",
+      "description": "Improvising when plans fall apart and finding a way through.",
+      "tips": []
+    },
+    "es": {
+      "name": "Resolución y Adaptabilidad",
+      "description": "Improvisar cuando los planes se caen y encontrar la forma de seguir.",
+      "tips": []
+    }
+  },
+  {
+    "code": "animal_care",
+    "en": {
+      "name": "Animal Care",
+      "description": "Calmness around livestock and an eye for reading their state.",
+      "tips": []
+    },
+    "es": {
+      "name": "Cuidado Animal",
+      "description": "Calma con el ganado y ojo para leer su estado.",
+      "tips": []
+    }
+  },
+  {
+    "code": "strategic",
+    "en": {
+      "name": "Strategic Thinking",
+      "description": "Long-term thinking on soil, pasture, water, and multi-season planning.",
+      "tips": []
+    },
+    "es": {
+      "name": "Pensamiento Estratégico",
+      "description": "Pensar a largo plazo en suelo, pastos, agua y planificación de varias temporadas.",
+      "tips": []
+    }
+  },
+  {
+    "code": "planning",
+    "en": {
+      "name": "Planning & Logistics",
+      "description": "Organizing people, schedules, supplies, and the order of operations.",
+      "tips": []
+    },
+    "es": {
+      "name": "Planeación y Logística",
+      "description": "Organizar gente, horarios, insumos y el orden de las tareas.",
+      "tips": []
+    }
+  },
+  {
+    "code": "leadership",
+    "en": {
+      "name": "Team Leadership",
+      "description": "Directing others and getting the best out of a crew.",
+      "tips": []
+    },
+    "es": {
+      "name": "Liderazgo de Equipo",
+      "description": "Dirigir a otros y sacar lo mejor de una cuadrilla.",
+      "tips": []
+    }
+  }
+]

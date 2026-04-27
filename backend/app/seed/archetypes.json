@@ -1,0 +1,378 @@
+[
+  {
+    "code": "hunter",
+    "emoji": "🎯",
+    "color": "#b45309",
+    "weights": {
+      "drive_output": 3.0,
+      "problem_solving": 1.5,
+      "reliability": 1.5,
+      "observation": 0.5
+    },
+    "en": {
+      "name": "The Hunter",
+      "tagline": "Gets things done. Fast.",
+      "description": "You move with intent. When a job lands in front of you, you don't deliberate — you start, and you don't stop until it's finished. Other people pace themselves; you push. You measure a day by what got done, not how it felt, and you'd rather be sore tonight than be staring at the same task tomorrow morning. Crews built around you keep up because you don't give them a reason to stand still.",
+      "hidden_truth": "Your speed isn't really about energy — it's about discomfort with unfinished things. An open job sits in your head like a splinter, and the only way to pull it out is to close it. That's why you'll sometimes blow past steps that would have been worth taking, and why downtime feels worse to you than a hard day's work. The same drive that makes you the first one moving in a crisis is the thing that makes you bad at sitting still when sitting still is what the day actually requires.",
+      "vs_others": "Where the Steward is thinking about next year and the Scout is reading the field, you're thinking about what gets crossed off the list before lunch. The Steward will outlast you on the slow play; you'll outwork them on the sprint. Don't mistake their patience for lack of urgency — they're playing a longer game than you are.",
+      "strengths": [
+        "Closes jobs others would still be planning",
+        "Lifts the pace of a whole crew without saying a word",
+        "Stays moving when conditions go sideways",
+        "Trusted to finish — if you said you'd do it, it's done"
+      ],
+      "best_role": "Pick roles where output is visible and finishing matters more than fine-tuning — harvest crews, fence builds, hay seasons, equipment hauls.",
+      "frustrated_by": "Standing around. Long meetings. People who want to talk through a job for an hour before starting it.",
+      "struggles_with": "Slowing down enough to do something the careful way. Repetitive maintenance work that has no clear finish line.",
+      "wrong_role": "In a role with no end-of-day output to point at — pure planning, slow administrative work, watching gauges — you'll lose your edge fast and start cutting corners just to feel like you're moving.",
+      "management": "Give a Hunter a clear target and a timeline, then get out of the way. Don't drown them in process — they'll work around it. Pair them with a Scout or a Steward on jobs where speed alone will cause regret. Recognize finished work publicly; that's the currency they care about."
+    },
+    "es": {
+      "name": "El Cazador",
+      "tagline": "Las cosas se hacen. Rápido.",
+      "description": "Te mueves con intención. Cuando un trabajo cae enfrente, no lo piensas — empiezas y no paras hasta terminarlo. Otros se dosifican; tú empujas. Mides el día por lo hecho, no por cómo se sintió, y prefieres terminar adolorido esta noche que ver la misma tarea mañana en la mañana. Las cuadrillas armadas a tu alrededor mantienen el ritmo porque no les das motivo para quedarse quietas.",
+      "hidden_truth": "Tu velocidad no es realmente energía — es incomodidad con lo inconcluso. Un trabajo abierto se te clava como una astilla, y la única forma de sacarla es cerrarlo. Por eso a veces te saltas pasos que hubiera valido la pena dar, y por eso el tiempo muerto te pesa más que un día duro. La misma fuerza que te pone a moverte primero en una crisis es la que te hace mal compañero de la quietud cuando la quietud es lo que el día pide.",
+      "vs_others": "Mientras el Mayordomo piensa en el próximo año y el Vigía lee el terreno, tú piensas qué se tacha de la lista antes del almuerzo. El Mayordomo te aguanta en la jugada lenta; tú lo aguantas en el sprint. No confundas su paciencia con falta de urgencia — está jugando un juego más largo que el tuyo.",
+      "strengths": [
+        "Cierra trabajos que otros aún estarían planeando",
+        "Sube el ritmo de toda la cuadrilla sin decir una palabra",
+        "Se mantiene en movimiento cuando las cosas se salen del cauce",
+        "Confiable para terminar — si dijiste que lo harías, está hecho"
+      ],
+      "best_role": "Elige roles donde la producción se vea y terminar pese más que afinar — cuadrillas de cosecha, postes y alambre, temporada de heno, traslados de equipo.",
+      "frustrated_by": "Estar parado. Reuniones largas. Gente que quiere hablar de un trabajo una hora antes de empezarlo.",
+      "struggles_with": "Bajar el ritmo lo suficiente para hacer algo con calma. Mantenimiento repetitivo sin final claro.",
+      "wrong_role": "En un puesto sin producción visible al final del día — pura planeación, papeleo lento, vigilar instrumentos — pierdes el filo rápido y empiezas a cortar atajos solo para sentir que avanzas.",
+      "management": "Dale al Cazador un objetivo claro y un plazo, y hazte a un lado. No lo ahogues en proceso — lo va a esquivar. Júntalo con un Vigía o un Mayordomo cuando solo velocidad genere arrepentimientos. Reconoce el trabajo terminado en público; esa es la moneda que le importa."
+    }
+  },
+  {
+    "code": "steward",
+    "emoji": "🌱",
+    "color": "#15803d",
+    "weights": {
+      "strategic": 3.0,
+      "observation": 2.0,
+      "animal_care": 1.0,
+      "reliability": 1.0
+    },
+    "en": {
+      "name": "The Steward",
+      "tagline": "Takes care of what matters long-term.",
+      "description": "You think in seasons, not in days. When you walk a piece of land, you're seeing it three years from now — what the soil will be doing, where the water's going, which paddocks need rest. You don't chase the quick win because you've watched too many quick wins turn into next year's problem. People sometimes mistake your pace for lack of urgency; what it really is, is patience built on knowing how this kind of work actually pays back.",
+      "hidden_truth": "You carry a quiet weight that the people around you don't always see. You feel responsible not just for this season's output but for the land itself — for handing it on better than you found it. That's why bad shortcuts hurt you in a way they don't hurt others, and why you can seem stubborn when you're really just refusing to trade ten years for ten weeks. The shadow of this strength is that you can over-think small calls and freeze when the situation actually does call for speed.",
+      "vs_others": "The Hunter measures the day; you measure the decade. Where they finish a job and move on, you're already wondering whether the way it was finished will hold. The Caretaker shares your patience but aims it at animals — you're aiming it at the whole farm system. Don't apologize for taking the long view. Somebody has to.",
+      "strengths": [
+        "Thinks in seasons and systems, not single jobs",
+        "Catches the slow problems before they become loud ones",
+        "Trusted with high-stakes, long-horizon decisions",
+        "Builds soil, pasture, and infrastructure that actually lasts"
+      ],
+      "best_role": "Land management, pasture and rotation planning, soil and water work, anywhere a multi-year head matters more than a fast hand.",
+      "frustrated_by": "Quick fixes that pass the cost downstream. Bosses who optimize for this quarter and ignore next decade.",
+      "struggles_with": "Acting fast when speed is genuinely the right move. Letting good-enough be good enough.",
+      "wrong_role": "In a pure-sprint role — harvest crew, day-rate fence work, anything graded only on today's output — you'll feel like the wrong tool every morning, and your best instinct will look like dragging your feet.",
+      "management": "Give the Steward authority over things that have long lead times: pasture plans, infrastructure, soil work, breeding decisions. Don't ask them to optimize for this week; ask them to keep you out of trouble in three years. Pair them with a Hunter or Drover on anything time-sensitive."
+    },
+    "es": {
+      "name": "El Mayordomo",
+      "tagline": "Cuida lo que importa a largo plazo.",
+      "description": "Piensas por temporadas, no por días. Cuando recorres un pedazo de tierra, ya lo ves dentro de tres años — qué hará el suelo, hacia dónde irá el agua, qué potreros necesitan descansar. No persigues victorias rápidas porque has visto muchas convertirse en el problema del año siguiente. A veces confunden tu ritmo con falta de urgencia; en realidad es paciencia, construida sobre saber cómo paga este oficio.",
+      "hidden_truth": "Cargas un peso silencioso que la gente alrededor no siempre ve. Te sientes responsable no solo de la producción de esta temporada sino de la tierra misma — de entregarla mejor de lo que la recibiste. Por eso los atajos malos te duelen distinto, y por eso pareces terco cuando en realidad te niegas a cambiar diez años por diez semanas. La sombra de esta fuerza es que puedes sobre-pensar decisiones chicas y congelarte cuando el momento sí pide velocidad.",
+      "vs_others": "El Cazador mide el día; tú mides la década. Donde él cierra un trabajo y sigue, tú ya estás preguntando si la forma en que se cerró va a aguantar. El Cuidador comparte tu paciencia pero la apunta a los animales — tú la apuntas al sistema entero de la finca. No te disculpes por mirar lejos. Alguien tiene que hacerlo.",
+      "strengths": [
+        "Piensa en temporadas y sistemas, no en trabajos sueltos",
+        "Detecta los problemas lentos antes de que se vuelvan ruidosos",
+        "Confiable para decisiones de largo aliento",
+        "Construye suelo, pastos e infraestructura que realmente duran"
+      ],
+      "best_role": "Manejo de tierra, planeación de pastos y rotación, suelo y agua, cualquier puesto donde la cabeza de varios años pese más que la mano rápida.",
+      "frustrated_by": "Arreglos rápidos que pasan el costo a otros. Jefes que optimizan el trimestre e ignoran la próxima década.",
+      "struggles_with": "Actuar rápido cuando la velocidad sí es lo correcto. Dejar que lo suficientemente bueno sea suficiente.",
+      "wrong_role": "En un puesto puro de sprint — cuadrilla de cosecha, postes a destajo, cualquier cosa que solo se mida por la producción de hoy — te vas a sentir la herramienta equivocada cada mañana, y tu mejor instinto va a parecer que arrastras los pies.",
+      "management": "Dale al Mayordomo autoridad sobre cosas con plazos largos: planes de pastoreo, infraestructura, suelo, decisiones reproductivas. No le pidas optimizar la semana; pídele que te saque de problemas dentro de tres años. Combínalo con un Cazador o un Arreador en lo que urge."
+    }
+  },
+  {
+    "code": "mechanic",
+    "emoji": "🔧",
+    "color": "#1d4ed8",
+    "weights": {
+      "equipment": 3.0,
+      "problem_solving": 2.0,
+      "observation": 1.0,
+      "reliability": 0.5
+    },
+    "en": {
+      "name": "The Mechanic",
+      "tagline": "If it's broken, they'll fix it.",
+      "description": "You hear what other people don't — the bearing that's gone dry, the belt that's about to walk, the hydraulic leak nobody's spotted yet. When something fails, you don't panic. You think. Most of the people around you treat machinery like a black box; you treat it like a problem with a solution, and you almost always find the solution. That confidence isn't bravado — it's earned every time you've cracked open something nobody else wanted to touch.",
+      "hidden_truth": "Equipment makes sense to you in a way people sometimes don't. Machines have rules; if you follow the symptoms, they tell you what's wrong. People are messier, and you can find yourself drifting toward the workshop when a hard conversation is what the day actually needs. Your gift for fixing things is real, but it can become a place to hide. The best version of you uses the same diagnostic patience on a struggling crew member that you'd use on a stalled engine.",
+      "vs_others": "The Resourcer will MacGyver something that gets you through the afternoon; you want to actually fix it. The Hunter will keep working a piece of iron that's about to grenade itself; you'll pull it off the line before it does. Don't let speed-merchants pressure you into letting bad equipment run — you're usually right about the cost.",
+      "strengths": [
+        "Diagnoses by sound, vibration, and pattern before reaching for a manual",
+        "Calm and methodical when other people are getting loud",
+        "Saves real money by catching small failures early",
+        "Keeps a fleet running that would otherwise be in the shop"
+      ],
+      "best_role": "Anywhere there is iron — workshop lead, equipment operator on complex machinery, fleet maintenance, planting and harvest support.",
+      "frustrated_by": "Operators who run equipment until it fails, then act surprised. Pressure to skip preventive work to save a morning.",
+      "struggles_with": "Tasks that have no machine to anchor them — crew supervision, customer-facing work, long stretches in the office.",
+      "wrong_role": "Stuck in a pure people-management or sales role with no shop time, you'll burn out fast and start fixing things that didn't need fixing just to feel useful.",
+      "management": "Give the Mechanic real ownership of the iron — including the budget for parts and the authority to pull machines off the line. Don't ask them to lead the crew unless they want to; ask them to lead the maintenance. Listen when they say a piece of equipment is about to fail. They're usually right."
+    },
+    "es": {
+      "name": "El Mecánico",
+      "tagline": "Si está roto, ellos lo arreglan.",
+      "description": "Escuchas lo que otros no — el balero que se quedó seco, la banda que se va a salir, la fuga hidráulica que nadie ha visto. Cuando algo falla, no te alteras. Piensas. La mayoría trata a la maquinaria como una caja negra; tú la tratas como un problema con solución, y casi siempre la encuentras. Esa confianza no es presunción — la has ganado cada vez que abriste algo que nadie más quería tocar.",
+      "hidden_truth": "Las máquinas tienen sentido para ti en una forma que las personas a veces no. Las máquinas tienen reglas; si sigues los síntomas, te dicen qué está mal. La gente es más desordenada, y a veces te vas al taller cuando lo que el día pide es una conversación difícil. Tu don para arreglar es real, pero también puede ser un escondite. La mejor versión de ti usa la misma paciencia de diagnóstico con un trabajador que batalla, igual que con un motor parado.",
+      "vs_others": "El Recursivo te improvisa algo para terminar la tarde; tú quieres arreglarlo de verdad. El Cazador seguirá usando un fierro a punto de reventar; tú lo bajas antes de que pase. No dejes que los apurados te presionen a dejar correr equipo en mal estado — sueles tener razón sobre el costo.",
+      "strengths": [
+        "Diagnostica por sonido, vibración y patrón antes de abrir el manual",
+        "Tranquilo y metódico cuando los demás se ponen ruidosos",
+        "Ahorra dinero real atrapando fallas pequeñas a tiempo",
+        "Mantiene corriendo una flotilla que de otra manera estaría parada"
+      ],
+      "best_role": "Donde haya fierros — líder de taller, operador de maquinaria compleja, mantenimiento de flotilla, apoyo de siembra y cosecha.",
+      "frustrated_by": "Operadores que usan los equipos hasta que truenan y luego se sorprenden. Presión para saltarte el mantenimiento preventivo por ganar una mañana.",
+      "struggles_with": "Tareas sin una máquina como ancla — supervisar gente, atención al cliente, jornadas largas de oficina.",
+      "wrong_role": "Atrapado en un puesto puro de manejo de gente o ventas, sin tiempo de taller, te quemas rápido y empiezas a arreglar cosas que no estaban rotas solo para sentirte útil.",
+      "management": "Dale al Mecánico verdadera autoridad sobre los fierros — incluyendo presupuesto de refacciones y poder de bajar máquinas. No le pidas dirigir la cuadrilla a menos que él quiera; pídele dirigir el mantenimiento. Escúchalo cuando diga que un equipo va a fallar. Casi siempre acierta."
+    }
+  },
+  {
+    "code": "caretaker",
+    "emoji": "🐄",
+    "color": "#9333ea",
+    "weights": {
+      "animal_care": 3.0,
+      "observation": 2.0,
+      "reliability": 1.5,
+      "strategic": 0.5
+    },
+    "en": {
+      "name": "The Caretaker",
+      "tagline": "Animals are in good hands.",
+      "description": "Animals settle around you. You read them the way most people read a room — gait, ears, breathing, where they're standing in the herd — and you're usually right about what's going on with them before it shows up as a real problem. You don't rush livestock. You don't fight them. You move with them, and they let you. That's not a trick; it's a temperament, and it's rarer than people realize.",
+      "hidden_truth": "Your patience with animals comes from the same place that makes hurried people uncomfortable around you. You can sit with a calving heifer or a sick lamb for as long as it takes, and that stillness is genuine — it's not performance. The shadow side: you can take losses harder than you should. When an animal goes down despite your best work, it sits with you in a way that's heavier than it ought to be, and you can carry that into the next job if you're not careful.",
+      "vs_others": "The Hunter wants the herd moved; you want it moved well. The Steward is thinking about the herd's genetics in ten years; you're thinking about that one cow in the back left who hasn't been eating. Both of you are right — but you're the one who'll catch the problem this morning instead of next month.",
+      "strengths": [
+        "Calm presence that lowers stress in livestock",
+        "Reads animal health early, often before symptoms are obvious",
+        "Patient with the slow work — calving, weaning, treatment regimens",
+        "Builds animal-handling routines the rest of the crew can follow"
+      ],
+      "best_role": "Anywhere the animals are central — calving and birthing seasons, dairy work, daily livestock checks, treatment and recovery, low-stress handling design.",
+      "frustrated_by": "People who run animals when they should walk them. Crews who treat livestock as obstacles in their schedule.",
+      "struggles_with": "High-pressure decisions that demand speed at the expense of care. Cold financial calls about animals that aren't producing.",
+      "wrong_role": "On a pure equipment crew or in a fast-output operation that grades you on numbers per hour, you'll feel like you're betraying your instinct every day.",
+      "management": "Give the Caretaker authority over animal welfare protocols — calving rounds, sick pens, handling design. Trust their reads even when nothing's obvious yet. Don't put them in roles that require culling-style decisions without backup. Pair them with a Steward on long-horizon herd planning."
+    },
+    "es": {
+      "name": "El Cuidador",
+      "tagline": "Los animales están en buenas manos.",
+      "description": "Los animales se calman a tu lado. Los lees como otros leen una sala — su andar, sus orejas, su respiración, dónde se paran en el rebaño — y casi siempre aciertas con lo que les pasa antes de que se convierta en un problema real. No apuras al ganado. No peleas con él. Te mueves con él, y él te deja. No es un truco; es un temperamento, y es más raro de lo que la gente cree.",
+      "hidden_truth": "Tu paciencia con los animales viene del mismo lugar que incomoda a la gente apurada cerca de ti. Puedes acompañar a una vaca pariendo o a un cordero enfermo el tiempo que haga falta, y esa quietud es real — no es actuación. La sombra: las pérdidas te pegan más fuerte de lo debido. Cuando un animal cae a pesar de tu mejor trabajo, te queda dentro más pesado de lo justo, y puedes cargarlo al siguiente trabajo si no te cuidas.",
+      "vs_others": "El Cazador quiere al rebaño movido; tú lo quieres movido bien. El Mayordomo piensa en la genética del rebaño en diez años; tú piensas en esa vaca del fondo izquierdo que no está comiendo. Ambos tienen razón — pero tú vas a atrapar el problema esta mañana, no el próximo mes.",
+      "strengths": [
+        "Presencia tranquila que baja el estrés del ganado",
+        "Lee la salud animal temprano, a menudo antes de que sea obvio",
+        "Paciente con el trabajo lento — partos, destete, tratamientos",
+        "Construye rutinas de manejo que el resto de la cuadrilla puede seguir"
+      ],
+      "best_role": "Donde los animales sean lo central — temporadas de paridera, lechería, revisiones diarias de ganado, tratamiento y recuperación, diseño de manejo de bajo estrés.",
+      "frustrated_by": "Gente que corre a los animales cuando debería caminarlos. Cuadrillas que ven al ganado como un obstáculo en el calendario.",
+      "struggles_with": "Decisiones a presión que exigen velocidad por encima del cuidado. Decisiones frías sobre animales que no están produciendo.",
+      "wrong_role": "En una cuadrilla pura de maquinaria o en una operación de producción rápida que te mide por número por hora, vas a sentir que traicionas tu instinto cada día.",
+      "management": "Dale al Cuidador autoridad sobre protocolos de bienestar animal — rondas de parto, corral de enfermos, diseño de manejo. Confía en sus lecturas aunque todavía no haya nada obvio. No lo pongas en decisiones tipo descarte sin respaldo. Júntalo con un Mayordomo para planeación de rebaño a largo plazo."
+    }
+  },
+  {
+    "code": "scout",
+    "emoji": "👁️",
+    "color": "#0891b2",
+    "weights": {
+      "observation": 3.0,
+      "strategic": 1.5,
+      "problem_solving": 1.5,
+      "animal_care": 0.5
+    },
+    "en": {
+      "name": "The Scout",
+      "tagline": "Sees what others miss.",
+      "description": "Nothing slips past you. The leaning post, the wet patch in the back forty, the row that's coming up uneven, the heifer favoring a leg — you pick them up walking past at normal speed, and you log them. While other people are looking at the job in front of them, you're reading the whole field. That awareness saves the operation more than people realize, because the things you catch early would have cost real money if they'd been caught late.",
+      "hidden_truth": "You see so much that you sometimes assume everyone else does too — and then get frustrated when nobody acts on what's obvious to you. The hidden cost of being a Scout is that the world moves at the speed of the average eye, not yours, and you can come off as critical when really you're just describing what's there. Learn to flag the small thing before it grows; you'll spare yourself a lot of frustration and your boss a lot of money.",
+      "vs_others": "The Hunter is moving so fast they only see what's directly in front of them; you see what's around the edges. The Mechanic catches problems through their hands; you catch them through your eyes. Where the Caretaker reads animals, you read the whole environment — animals, soil, weather, people, equipment, all at once.",
+      "strengths": [
+        "Picks up subtle changes long before they become emergencies",
+        "Reads land, weather, and equipment at the same time",
+        "Connects small signals others would treat as unrelated",
+        "Saves money by catching the slow problems early"
+      ],
+      "best_role": "Pasture monitoring, crop and herd walks, irrigation and drainage observation, anywhere a sharp pair of eyes prevents expensive surprises.",
+      "frustrated_by": "Crews who treat early warnings as paranoia. Bosses who only act after a problem becomes loud.",
+      "struggles_with": "Pure execution roles where you're not allowed to slow down and look. Acting decisively on what you've seen rather than just reporting it.",
+      "wrong_role": "In a head-down piece-rate role with no time to look up, your strongest instinct gets squeezed out and you'll be mediocre at the actual task.",
+      "management": "Build a Scout into your weekly walk-around. Ask them what they're seeing and trust the answer. Empower them to act on what they catch — not just report it — or you'll lose the early warning advantage entirely. Pair them with a Hunter or Drover when something needs to move."
+    },
+    "es": {
+      "name": "El Vigía",
+      "tagline": "Ve lo que otros no ven.",
+      "description": "Nada se te escapa. El poste inclinado, la mancha húmeda al fondo, la hilera que sale dispareja, la novilla que protege una pata — los notas de pasada a velocidad normal y te los apuntas. Mientras los demás miran la tarea de enfrente, tú lees el campo completo. Esa conciencia le ahorra a la operación más de lo que la gente cree, porque lo que atrapas a tiempo hubiera costado plata real si se atrapaba tarde.",
+      "hidden_truth": "Ves tanto que a veces das por hecho que todos también ven — y luego te frustras cuando nadie actúa sobre lo que para ti es obvio. El costo oculto de ser Vigía es que el mundo se mueve a la velocidad del ojo promedio, no del tuyo, y puedes parecer crítico cuando solo estás describiendo lo que hay. Aprende a señalar lo chico antes de que crezca; te ahorrarás frustración y a tu jefe mucho dinero.",
+      "vs_others": "El Cazador va tan rápido que solo ve lo de enfrente; tú ves los bordes. El Mecánico atrapa los problemas con las manos; tú los atrapas con los ojos. Donde el Cuidador lee animales, tú lees el entorno entero — animales, suelo, clima, gente, equipo, todo al mismo tiempo.",
+      "strengths": [
+        "Capta cambios sutiles mucho antes de que sean emergencia",
+        "Lee tierra, clima y equipo a la vez",
+        "Conecta señales pequeñas que otros verían sueltas",
+        "Ahorra dinero atrapando los problemas lentos a tiempo"
+      ],
+      "best_role": "Monitoreo de pastos, recorridos de cultivo y rebaño, observación de riego y drenaje, donde un buen par de ojos previene sorpresas caras.",
+      "frustrated_by": "Cuadrillas que tratan las advertencias tempranas como paranoia. Jefes que solo actúan cuando el problema ya gritó.",
+      "struggles_with": "Roles de pura ejecución sin permiso para frenar y mirar. Actuar con decisión sobre lo que ves, no solo reportarlo.",
+      "wrong_role": "En un puesto a destajo, cabeza abajo, sin tiempo para levantar la vista, tu mejor instinto se asfixia y vas a ser mediocre en la tarea misma.",
+      "management": "Mete al Vigía en tu recorrido semanal. Pregúntale qué está viendo y confía en la respuesta. Empodéralo para actuar sobre lo que detecta — no solo reportarlo — o pierdes la ventaja de la advertencia temprana. Júntalo con un Cazador o un Arreador cuando algo tenga que moverse."
+    }
+  },
+  {
+    "code": "organiser",
+    "emoji": "📋",
+    "color": "#ea580c",
+    "weights": {
+      "planning": 3.0,
+      "reliability": 2.0,
+      "leadership": 1.5,
+      "strategic": 1.0
+    },
+    "en": {
+      "name": "The Organiser",
+      "tagline": "Runs a tight ship.",
+      "description": "You think in dependencies. If we're cutting Tuesday, the baler's been serviced Monday, the diesel's on hand Sunday, and you knew last Wednesday who was driving what. You don't enjoy chaos — you don't even tolerate it well — but you'll quietly absorb it on behalf of everyone else and turn it into a list, a schedule, and a working day. The crews you run don't notice how much friction you've removed; they only notice that things just seem to work.",
+      "hidden_truth": "Your gift looks like organization, but underneath it is a deep discomfort with things falling through the cracks. You can't sleep when you know there's a loose end, and that anxiety is the engine of your reliability. The shadow side: you can over-control, treat improvisation as failure, and burn yourself out covering for people who should have planned better. Letting some things go imperfectly is a skill you have to practice on purpose.",
+      "vs_others": "The Drover leads from the front; you lead from the schedule. The Steward is planning years out; you're planning the week. Where the Hunter would just start, you'd rather take ten minutes to set up so the next two hours actually go right. Don't let action-types convince you that planning isn't real work — they're alive at the end of the season because of what you did at the start.",
+      "strengths": [
+        "Sequences work so the right thing happens at the right time",
+        "Catches the missing supply, the missing person, the missing detail",
+        "Calm under volume — more inputs don't break you",
+        "Builds repeatable systems out of busy seasons"
+      ],
+      "best_role": "Operations management, harvest and seasonal coordination, supply and inventory, scheduling crews and equipment, anything where logistics is the difference between a good day and a bad one.",
+      "frustrated_by": "People who don't update the plan when it changes. Last-minute scrambles caused by laziness, not by genuine surprise.",
+      "struggles_with": "Improvising when the plan really has to be thrown out. Letting other people own the plan in their own way.",
+      "wrong_role": "In a chaos-tolerant, fly-by-feel operation that doesn't honor process, you'll be miserable and slowly become the bottleneck instead of the fix.",
+      "management": "Give the Organiser real authority over the schedule and the supply chain — not just responsibility for it. Don't bypass them; that destroys trust faster than anything. Pair them with a Resourcer or Hunter when the plan goes off the rails. Recognize the disasters that didn't happen — that's their work, even if it's invisible."
+    },
+    "es": {
+      "name": "El Organizador",
+      "tagline": "Lleva todo en orden.",
+      "description": "Piensas en dependencias. Si cortamos el martes, la enfardadora se revisó el lunes, el diésel llegó el domingo, y desde el miércoles pasado ya sabías quién manejaba qué. No te gusta el caos — ni siquiera lo toleras bien — pero lo absorbes calladamente por los demás y lo conviertes en una lista, un horario y un día funcional. Las cuadrillas que diriges no notan cuánta fricción quitaste; solo notan que las cosas, simplemente, salen.",
+      "hidden_truth": "Tu don parece organización, pero debajo hay una incomodidad profunda con que las cosas se caigan entre las rendijas. No duermes sabiendo que hay un cabo suelto, y esa ansiedad es el motor de tu confiabilidad. La sombra: puedes sobrecontrolar, tratar la improvisación como fracaso y agotarte tapando a gente que debió planear mejor. Dejar pasar algunas cosas imperfectamente es una habilidad que tienes que practicar a propósito.",
+      "vs_others": "El Arreador dirige desde el frente; tú diriges desde el calendario. El Mayordomo planea por años; tú planeas la semana. Donde el Cazador empezaría sin más, tú prefieres invertir diez minutos para que las próximas dos horas salgan bien. No dejes que los hombres de acción te convenzan de que planear no es trabajo — están vivos al final de la temporada por lo que hiciste al inicio.",
+      "strengths": [
+        "Ordena las tareas para que lo correcto pase en el momento correcto",
+        "Atrapa el insumo que falta, la persona que falta, el detalle que falta",
+        "Tranquilo bajo volumen — más entradas no te rompen",
+        "Convierte temporadas pesadas en sistemas repetibles"
+      ],
+      "best_role": "Gestión de operaciones, coordinación de cosecha y temporadas, abasto e inventario, calendario de cuadrillas y equipos, cualquier puesto donde la logística sea la diferencia entre un buen día y uno malo.",
+      "frustrated_by": "Gente que no actualiza el plan cuando cambia. Apuros de último minuto por flojera, no por sorpresa real.",
+      "struggles_with": "Improvisar cuando el plan sí hay que tirarlo. Dejar que otros tengan el plan a su manera.",
+      "wrong_role": "En una operación tolerante al caos, llevada por el instinto, sin respeto al proceso, vas a ser miserable y poco a poco te conviertes en el cuello de botella en vez de la solución.",
+      "management": "Dale al Organizador autoridad real sobre el calendario y la cadena de abasto — no solo responsabilidad. No lo brinques; eso destruye la confianza más rápido que nada. Júntalo con un Recursivo o un Cazador cuando el plan se descarrile. Reconoce los desastres que no pasaron — ese es su trabajo, aunque sea invisible."
+    }
+  },
+  {
+    "code": "resourcer",
+    "emoji": "⚙️",
+    "color": "#d97706",
+    "weights": {
+      "problem_solving": 3.0,
+      "equipment": 1.5,
+      "drive_output": 1.5,
+      "observation": 1.0
+    },
+    "en": {
+      "name": "The Resourcer",
+      "tagline": "Finds a way. Always.",
+      "description": "When the plan blows up at 11am, you're the one who keeps the day. A part didn't ship; you'll fab one. The forecast lied; you'll re-route the work. The crew is one short; you'll cover the gap and still hit the number. You don't get attached to plans. You get attached to outcomes, and you've been improvising your way to outcomes for so long it stopped feeling unusual to you.",
+      "hidden_truth": "Your strength is born partly from a quiet refusal to be stopped. You learned somewhere along the way that 'we can't' usually means 'we haven't tried hard enough,' and you carry that conviction into every busted plan. The shadow side: your fixes are sometimes too good — they let an underlying problem keep limping along, and the operation never actually fixes the thing because you keep papering over it. Knowing when not to MacGyver something is a real skill.",
+      "vs_others": "The Mechanic wants to fix it right; you'll fix it now and finish the job. The Hunter pushes through; you reroute around. The Organiser plans the day; you save the day when the plan dies. All three need each other.",
+      "strengths": [
+        "Keeps the day on the rails when something fails mid-job",
+        "Improvises usable solutions out of what's actually on hand",
+        "Stays cool when other people are starting to panic",
+        "Earns trust fast because you actually deliver under pressure"
+      ],
+      "best_role": "Operations support, breakdown response, harvest and busy-season utility role, anywhere a generalist who can do five things passably matters more than a specialist who does one thing perfectly.",
+      "frustrated_by": "Rigid systems that punish improvisation. Bosses who'd rather be right than be done.",
+      "struggles_with": "Documenting your fixes so the operation actually learns. Stopping the workaround long enough to install the real fix.",
+      "wrong_role": "In a tightly defined, single-task role with no permission to deviate, your best instinct gets sandboxed and you'll be average instead of indispensable.",
+      "management": "Tell the Resourcer the outcome and the constraints — then trust the path. Build in a checkpoint after the save: did this fix create a debt the operation needs to pay back? Pair them with a Mechanic on equipment fixes that need a permanent answer, and an Organiser on anything that has to repeat."
+    },
+    "es": {
+      "name": "El Recursivo",
+      "tagline": "Siempre encuentra cómo.",
+      "description": "Cuando el plan revienta a las once, eres el que salva el día. No llegó la pieza; la fabricas. El pronóstico mintió; redireccionas el trabajo. Falta uno en la cuadrilla; cubres el hueco y aún así pegas el número. No te casas con los planes. Te casas con los resultados, y llevas tanto tiempo improvisando hacia el resultado que ya ni te parece raro.",
+      "hidden_truth": "Tu fuerza nace en parte de una negativa silenciosa a que te paren. Aprendiste en el camino que 'no se puede' suele significar 'no se ha intentado lo suficiente', y cargas esa convicción a cada plan roto. La sombra: a veces tus arreglos son tan buenos que el problema de fondo sigue rengueando, y la operación nunca lo resuelve de verdad porque tú lo tapas. Saber cuándo NO improvisar es una habilidad real.",
+      "vs_others": "El Mecánico quiere arreglarlo bien; tú lo arreglas ahora y cierras el trabajo. El Cazador empuja; tú rodeas. El Organizador planea el día; tú salvas el día cuando el plan se cae. Los tres se necesitan.",
+      "strengths": [
+        "Mantiene el día en marcha cuando algo falla a mitad del trabajo",
+        "Improvisa soluciones funcionales con lo que realmente hay",
+        "Mantiene la calma cuando los demás empiezan a perderla",
+        "Gana confianza rápido porque entrega bajo presión"
+      ],
+      "best_role": "Apoyo a operaciones, respuesta a descomposturas, comodín en cosecha y temporada alta, donde un generalista que hace cinco cosas pasable vale más que un especialista perfecto en una.",
+      "frustrated_by": "Sistemas rígidos que castigan improvisar. Jefes que prefieren tener la razón antes que terminar.",
+      "struggles_with": "Documentar tus arreglos para que la operación aprenda. Parar el parche el tiempo suficiente para instalar el arreglo real.",
+      "wrong_role": "En un puesto rígido de una sola tarea sin permiso de salirte, tu mejor instinto queda enjaulado y eres promedio en lugar de indispensable.",
+      "management": "Dile al Recursivo el resultado y los límites — y confía en el camino. Mete un punto de control después del rescate: ¿este arreglo dejó una deuda que hay que pagar? Júntalo con un Mecánico cuando el equipo necesite un arreglo permanente, y con un Organizador para cualquier cosa que se repita."
+    }
+  },
+  {
+    "code": "drover",
+    "emoji": "🤠",
+    "color": "#be123c",
+    "weights": {
+      "leadership": 3.0,
+      "planning": 2.0,
+      "drive_output": 1.5,
+      "animal_care": 1.0
+    },
+    "en": {
+      "name": "The Drover",
+      "tagline": "Leads from the front.",
+      "description": "When the crew is standing around unsure what to do, the air shifts when you walk up. You don't bark; you direct. People work harder for you than they would for a louder boss because you're already moving when you tell them what to do, and you take the heat first when something goes wrong. You can hold a hard conversation without it getting personal, and that's rarer in the field than people admit. A good Drover changes the temperature of a whole operation.",
+      "hidden_truth": "You lead because you can't stand watching a job get botched, but the deeper truth is that you genuinely care about the people doing it. You feel responsible for their day, their pay, and whether they go home in one piece, and that responsibility is what makes your authority work — it doesn't feel like authority, it feels like backup. The shadow side: you can take on too much, refuse to delegate, and burn out trying to be the safety net for people who should be standing on their own.",
+      "vs_others": "The Hunter just runs; you run a crew. The Organiser plans from the office; you lead from the gate. The Steward will outlast you on land decisions; you'll outlast them on a tough day with people. Don't apologize for being the one who steps up — somebody had to.",
+      "strengths": [
+        "Gets the best out of a crew without needing to raise their voice",
+        "Holds hard conversations without breaking the relationship",
+        "Reads when the crew is fading and changes the play",
+        "Steps in front of trouble so the team can keep working"
+      ],
+      "best_role": "Crew lead on harvest, fence, calving, or construction. Foreman roles. Any season where a steady hand on the front of a crew is the difference.",
+      "frustrated_by": "Bosses who blame the crew for failures of leadership. Workers who won't take responsibility for their own piece.",
+      "struggles_with": "Letting other people make their own mistakes. Solo work that has no team to lead.",
+      "wrong_role": "In a solo, head-down role with no team to run, your strongest instinct goes unused and you'll feel restless within a week.",
+      "management": "Give the Drover ownership of a crew and the authority that comes with it — including hire/fire input. Back them publicly when they make a hard call. Pair them with an Organiser for the schedule and a Steward for the long-horizon decisions, and they'll run a tight, motivated operation."
+    },
+    "es": {
+      "name": "El Arreador",
+      "tagline": "Dirige desde el frente.",
+      "description": "Cuando la cuadrilla está parada sin saber qué hacer, el aire cambia cuando llegas. No gritas; diriges. La gente trabaja más fuerte contigo que con un jefe más ruidoso porque ya te están viendo moverte cuando les das la indicación, y eres el primero en aguantar el regaño cuando algo sale mal. Puedes tener una conversación dura sin que se vuelva personal, y eso es más raro en el campo de lo que se admite. Un buen Arreador cambia la temperatura de toda una operación.",
+      "hidden_truth": "Diriges porque no soportas ver un trabajo mal hecho, pero la verdad más profunda es que sí te importa la gente que lo hace. Te sientes responsable de su jornada, de su paga y de que se vayan a su casa enteros, y esa responsabilidad es lo que hace funcionar tu autoridad — no se siente autoridad, se siente respaldo. La sombra: puedes cargar demasiado, no delegar y agotarte tratando de ser la red de seguridad de gente que debería pararse sola.",
+      "vs_others": "El Cazador corre solo; tú corres una cuadrilla. El Organizador planea desde la oficina; tú diriges desde el portón. El Mayordomo te aguanta en decisiones de tierra; tú lo aguantas en un día duro con gente. No te disculpes por ser el que da el paso al frente — alguien tenía que hacerlo.",
+      "strengths": [
+        "Saca lo mejor de una cuadrilla sin tener que levantar la voz",
+        "Tiene conversaciones duras sin romper la relación",
+        "Lee cuándo la cuadrilla se cansa y cambia la jugada",
+        "Se pone delante del problema para que el equipo pueda seguir"
+      ],
+      "best_role": "Líder de cuadrilla en cosecha, alambrado, paridera o construcción. Capataces. Cualquier temporada donde una mano firme al frente sea la diferencia.",
+      "frustrated_by": "Jefes que culpan a la cuadrilla de fallas de liderazgo. Trabajadores que no se hacen cargo de lo suyo.",
+      "struggles_with": "Dejar que otros cometan sus propios errores. Trabajo solo, sin equipo que dirigir.",
+      "wrong_role": "En un puesto solitario, cabeza abajo, sin equipo que dirigir, tu mejor instinto queda sin uso y te sientes inquieto en una semana.",
+      "management": "Dale al Arreador la propiedad de una cuadrilla y la autoridad que viene con eso — incluyendo voz en contrataciones y bajas. Respáldalo en público cuando tome una decisión dura. Júntalo con un Organizador para el calendario y un Mayordomo para las decisiones de largo plazo, y va a manejar una operación apretada y motivada."
+    }
+  }
+]
