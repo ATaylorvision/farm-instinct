@@ -27,6 +27,8 @@ echo "Applying migrations..."
 alembic upgrade head
 
 echo "Seeding themes and questions..."
-python -m app.seed.seed
+# Don't let a seed hiccup take down the API in production — the data is upserted
+# idempotently and missing seed data is recoverable, but a crashed container is not.
+python -m app.seed.seed || echo "WARNING: seed failed; continuing anyway"
 
 exec "$@"
